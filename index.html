@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-color"></div>
+    <div class="container">
+        <h1>My Creative Todo List</h1>
+        <div class="input-container">
+            <input type="text" id="todoInput" placeholder="Add a new todo">
+            <button id="addButton">Add</button>
+        </div>
+        <div class="lists-container">
+            <ul id="incompleteList" class="todo-list"></ul>
+            <ul id="completedList" class="todo-list"></ul>
+        </div>
+        <p>Total tasks: <span id="totalTasks">0</span></p>
+        <div class="buttons">
+            <button id="completeAllButton">Complete All</button>
+            <button id="clearCompletedButton">Clear Completed</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
